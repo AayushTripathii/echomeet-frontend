@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Button } from '@/components/ui/Button'; // ✅ CORRECT
+import { Button } from "@/components/ui/Button";
 import { Video, ShieldCheck, MicOff, VideoOff, RefreshCw, Monitor, Flag, Ban } from "lucide-react";
 import io from "socket.io-client";
 
